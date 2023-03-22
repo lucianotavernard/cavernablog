@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { useEffect, useRef, useState } from 'react'
 import { GetServerSideProps } from 'next'
 
@@ -5,8 +6,6 @@ import Head from 'next/head'
 
 import clsx from 'clsx'
 import * as prismicH from '@prismicio/helpers'
-
-import { Header } from '@/components/Header'
 
 import { getPrismicClient } from '@/services/prismic'
 
@@ -91,7 +90,7 @@ export default function Post({ post }: PostProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
-  const { slug } = params
+  const { slug } = params!
 
   const prismic = getPrismicClient()
 
