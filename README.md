@@ -1,6 +1,6 @@
 <h1 align="center">
 
-<img src="https://raw.githubusercontent.com/lucianotavernard/cavernablog/master/public/images/avatar.svg" alt="cavernablog" width="100px"/>
+<img src=".github/avatar.svg" alt="cavernablog" width="100px"/>
 
 </h1>
 
@@ -9,13 +9,17 @@
   <br>
   <br>
 
-  <img alt="Language count" src="https://img.shields.io/github/repo-size/lucianotavernard/cavernablog"/>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucianotavernard/cavernablog.svg">
 
-  <a href="https://github.com/lucianotavernard/cavernablog/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucianotavernard/cavernablog">
-  </a>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucianotavernard/cavernablog.svg">
 
-  <img alt="License" src="https://img.shields.io/github/license/lucianotavernard/cavernablog">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucianotavernard/cavernablog.svg">
+
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucianotavernard/cavernablog.svg">
+
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/lucianotavernard/cavernablog.svg">
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/lucianotavernard/cavernablog.svg">
 </p>
 
 ---
