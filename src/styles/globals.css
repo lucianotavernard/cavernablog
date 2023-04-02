@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .post-content p,
 .post-content ul {
   margin: 1.5rem 0;
@@ -21,4 +25,26 @@
 
   padding: 1rem;
   margin: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  border: none;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3d3c42;
+  border-radius: 3px;
+  cursor: move;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: none;
 }

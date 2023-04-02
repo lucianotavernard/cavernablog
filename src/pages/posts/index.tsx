@@ -26,7 +26,7 @@ export default function Posts({ posts }: PostsProps) {
         <title> Posts | Blog - Carverna labs </title>
       </Head>
 
-      <main className="w-full max-w-6xl mt-32 mx-auto px-8">
+      <main className="w-full max-w-6xl mt-32 mx-auto px-8 pb-8">
         <div className="flex flex-col gap-8 w-full max-w-3xl mx-auto">
           {posts.map((post, index) => (
             <Link
