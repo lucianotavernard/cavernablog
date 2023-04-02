@@ -7,7 +7,7 @@ export default function Home() {
         <title>Home | Blog - Carverna labs</title>
       </Head>
 
-      <main className="flex justify-between items-center w-full max-w-6xl mx-auto px-8 min-h-screen">
+      <main className="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-6xl mx-auto px-8 min-h-screen">
         <section className="max-w-2xl text-[#E1E1E6]">
           <span className="font-bold text-2xl">👏 Hey devs, bem-vindos ao</span>
 
