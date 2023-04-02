@@ -57,9 +57,7 @@ export default function Posts({ posts }: PostsProps) {
 export const getStaticProps: GetStaticProps = async () => {
   const prismic = getPrismicClient()
 
-  const response = await prismic.get({
-    pageSize: 3
-  })
+  const response = await prismic.get()
 
   const posts = response.results.map((post) => {
     return {
